@@ -6,3 +6,7 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+--
+-- NOTE: the "open explorer on startup" autocmd lives in options.lua, not here.
+-- This file is loaded on the VeryLazy event (after VimEnter when nvim is opened
+-- with no file args), which is too late to register a VimEnter autocmd.
