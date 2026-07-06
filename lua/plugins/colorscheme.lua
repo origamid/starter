@@ -1,13 +1,7 @@
+-- ~/.config/nvim/lua/plugins/colorscheme.lua
 return {
-  {
-    "tanvirtin/monokai.nvim",
-    lazy = false,
-    priority = 1000,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "monokai_pro", -- dark variant
-    },
+  "LazyVim/LazyVim",
+  opts = {
+    colorscheme = "origamid",
   },
 }
